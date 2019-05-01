@@ -8,6 +8,8 @@ const sendData = require('./middlewares/SendDataMiddleware')
 app.use(sendData)
 app.use('/api', require('./routes'))
 
-app.listen(3001)
+const port = process.env.PORT || 7777
 
-console.log('Servidor iniciado na porta 3001');
+app.listen(port)
+
+console.log(`Servidor iniciado na porta ${port}`)

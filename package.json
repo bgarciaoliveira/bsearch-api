@@ -1,7 +1,7 @@
 {
-  "name": "atak-api",
+  "name": "bsearch-api",
   "version": "1.0.0",
-  "description": "Teste técnico para Atak",
+  "description": "ferramenta unificadora de motores de pesquisa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bgarciaoliveira/Atak.git"
+    "url": "git+https://github.com/bgarciaoliveira/bsearch-api.git"
   },
   "author": "Bruno Garcia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bgarciaoliveira/Atak/issues"
+    "url": "https://github.com/bgarciaoliveira/bsearch-api.git/issues"
   },
-  "homepage": "https://github.com/bgarciaoliveira/Atak#readme",
+  "homepage": "https://github.com/bgarciaoliveira/bsearch-api.git#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "cors": "^2.8.5",

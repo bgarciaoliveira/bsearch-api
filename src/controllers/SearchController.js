@@ -6,8 +6,8 @@ const isNaturalNumber = require('../utils/isNaturalNumber')
 module.exports = {
 
     async search(req, res) {
-        const keyword = req.query.keyword
-        const engine = req.query.engine.toLowerCase()
+        const keyword = req.query.keyword || ''
+        const engine = req.query.engine || ''
         const first = isNaturalNumber(req.query.first) ? req.query.first : 1
 
         // Verificacao de seguranca para bloquear possiveis ataques de overflow

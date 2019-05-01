@@ -2,10 +2,11 @@
 
 const express = require('express')
 const app = express()
-
+const cors = require('cors')
 const sendData = require('./middlewares/SendDataMiddleware')
 
 app.use(sendData)
+app.use(cors)
 app.use('/api', require('./routes'))
 
 const port = process.env.PORT || 7777
